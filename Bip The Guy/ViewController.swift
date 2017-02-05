@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var imageToPunch: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +23,16 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func libraryPressed(_ sender: UIButton) {
+
+    }
+    
+    @IBAction func cameraPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func imageTapped(_ sender: UITapGestureRecognizer) {
+        print("Hey! You Just Pressed the Image")
+    }
+    
 }
 
