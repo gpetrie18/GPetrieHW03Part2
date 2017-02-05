@@ -30,9 +30,7 @@ class ViewController: UIViewController {
     @IBAction func cameraPressed(_ sender: UIButton) {
     }
     
-    @IBAction func imageTapped(_ sender: UITapGestureRecognizer) {
-        print("Hey! You Just Pressed the Image")
-    }
-    
+
+
 }
 
